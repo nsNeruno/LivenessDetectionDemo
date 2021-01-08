@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="liveness_app_name">जीवंतता</string>
+    <string name="liveness_none"></string>
+    <string name="liveness_blink">कृपया पलकें झपकाएँ</string>
+    <string name="liveness_mouse">कृपया अपना मुंह खोलें और फिर बंद करें</string>
+    <string name="liveness_pos_raw">कृपया सिर को बाएँ या दाएँ घुमाएँ (&lt;३० डिग्री)</string><!--yaw摇头-->
+    <string name="liveness_hold_phone_vertical">कृपया फोन को सीधा रखें</string>
+    <string name="liveness_weak_light">एक उज्जवल स्थान खोजें</string>
+    <string name="liveness_too_light">एक अंधेरी जगह पर मौजूद हो</string>
+    <string name="liveness_no_camera_permission">कैमरा चालू नहीं है, कृपया कैमरा अनुमतियां चालू करें</string>
+    <string name="liveness_perform">हाँ</string>
+    <string name="liveness_cancel">रद्द करें</string>
+    <string name="liveness_try_again">फिर से उपयोग करें</string>
+    <string name="liveness_detection_success">जीवंतता जांचना सफल हुई</string>
+    <string name="liveness_move_face_center">कृपया अपने चेहरे को ढांचा के केंद्र में ले जाएं</string>
+    <string name="liveness_still">कृपया स्थिर रहें और परीक्षण शुरू करें</string>
+    <string name="liveness_frontal">कृपया स्क्रीन पर सीधे देखें</string>
+    <string name="liveness_detection_fail">जीवंतता जांचना विफल हुई, कृपया पुनः प्रयास करें</string>
+    <string name="liveness_time_out">समय समाप्त</string>
+    <string name="liveness_no_people_face">कृपया अपना चेहरा ढांचा के केंद्र में रखें</string>
+    <string name="liveness_auth_check">कृपया प्रतीक्षा करें</string>
+    <string name="liveness_tip_move_closer">कृपया अपना चेहरा स्क्रीन के करीब ले जाएं</string>
+    <string name="liveness_tip_move_furthre">कृपया अपने चेहरे को स्क्रीन से दूर ले जाएं</string>
+    <string name="liveness_device_not_support">साधन जीवंतता जांचना का समर्थन नहीं करता है</string>
+
+</resources>
+

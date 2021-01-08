@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Removed \n between "out," and "please" -->
+    <string name="liveness_failed_reason_timeout">Time out, please follow the instructions</string>
+    <!-- Removed \n between "detected," and "please" -->
+    <string name="liveness_failed_reason_facemissing_blink_mouth">No face detected, please avoid fast motion and find a brighter place</string>
+    <!-- Removed \n between "detected," and "please" -->
+    <string name="liveness_failed_reason_facemissing_pos_yaw">No face detected, please avoid fast motion and large head shake (> 45 degrees)</string>
+    <string name="liveness_failed_reason_multipleface">Multiple faces detected</string>
+    <string name="liveness_failed_reason_muchaction">Multiple motions detected</string>
+    <string name="liveness_failed_reason_auth_failed">Authorization failed, please check network</string>
+    <string name="liveness_failed_reason_bad_network">Please check network</string>
+</resources>

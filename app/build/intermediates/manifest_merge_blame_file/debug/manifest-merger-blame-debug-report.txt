@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.advance.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 相机权限 -->
+11-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+11-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:11:5-65
+12-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:11:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:13:5-60
+14-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:13:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:14:5-70
+15-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:14:19-67
+16
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+17-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:16:5-68
+17-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:16:22-65
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:18:5-67
+18-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:18:22-64
+19
+20    <application
+20-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:5:5-21:19
+21        android:name="ai.advance.integration.demo.DemoApplication"
+21-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:6:9-40
+22        android:allowBackup="true"
+22-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] /Users/neruno/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:8:9-43
+26        android:label="@string/app_name"
+26-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:9:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:10:9-54
+28        android:supportsRtl="true"
+28-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:11:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:12:9-40
+31        <activity android:name="ai.advance.integration.demo.MainActivity" >
+31-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:13:9-20:20
+31-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:13:19-47
+32            <intent-filter>
+32-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:14:13-19:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:15:17-69
+33-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:15:25-66
+34                <action android:name="android.intent.action.VIEW" />
+34-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:16:17-69
+34-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:16:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:18:17-77
+36-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/src/main/AndroidManifest.xml:18:27-74
+37            </intent-filter>
+38        </activity>
+39        <!--
+40        android:theme="@style/Theme.AppCompat.Light"
+41        replaced with
+42        android:theme="@style/liveness_activity"
+43        -->
+44        <activity
+44-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-22:56
+45            android:name="ai.advance.liveness.sdk.activity.LivenessActivity"
+45-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-77
+46            android:launchMode="singleTop"
+46-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-43
+47            android:screenOrientation="portrait"
+47-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-49
+48            android:theme="@style/liveness_activity" />
+48-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-53
+49        <activity
+49-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:72
+50            android:name="ai.advance.liveness.sdk.activity.ResultActivity"
+50-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-75
+51            android:launchMode="singleTop"
+51-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-43
+52            android:screenOrientation="portrait"
+52-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-49
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->[:liveness] /Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-69
+54
+55        <service
+55-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:21:9-23:72
+56            android:name="ai.advance.liveness.lib.LService"
+56-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:22:13-60
+57            android:permission="android.permission.BIND_JOB_SERVICE" />
+57-->[:liveness_lib_v1.2.0:] /Users/neruno/.gradle/caches/transforms-2/files-2.1/78c91da7771acd9a97b11df1f3c32f12/liveness_lib_v1.2.0/AndroidManifest.xml:23:13-69
+58    </application>
+59
+60</manifest>

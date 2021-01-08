@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ai.advance.liveness.sdk" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+
+        <!--
+        android:theme="@style/Theme.AppCompat.Light"
+        replaced with
+        android:theme="@style/liveness_activity"
+        -->
+        <activity
+            android:name="ai.advance.liveness.sdk.activity.LivenessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/liveness_activity" />
+        <activity
+            android:name="ai.advance.liveness.sdk.activity.ResultActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>

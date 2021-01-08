@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :guardian_core_v1.7:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60ec7de1aeb9c75c11e6eccb6f4b9589/guardian_core_v1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60ec7de1aeb9c75c11e6eccb6f4b9589/guardian_core_v1.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60ec7de1aeb9c75c11e6eccb6f4b9589/guardian_core_v1.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

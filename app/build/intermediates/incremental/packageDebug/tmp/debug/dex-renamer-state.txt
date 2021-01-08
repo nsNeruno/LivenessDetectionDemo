@@ -1,0 +1,4 @@
+#Wed Jan 06 14:59:27 WIB 2021
+base.0=/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

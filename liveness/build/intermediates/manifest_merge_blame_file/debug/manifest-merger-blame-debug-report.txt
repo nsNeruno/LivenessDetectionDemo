@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.advance.liveness.sdk" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:4:5-79
+9-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:4:22-76
+10
+11    <application>
+11-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:5:5-23:19
+12
+13        <!--
+14        android:theme="@style/Theme.AppCompat.Light"
+15        replaced with
+16        android:theme="@style/liveness_activity"
+17        -->
+18        <activity
+18-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:12:9-16:56
+19            android:name="ai.advance.liveness.sdk.activity.LivenessActivity"
+19-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:13:13-54
+20            android:launchMode="singleTop"
+20-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:14:13-43
+21            android:screenOrientation="portrait"
+21-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:15:13-49
+22            android:theme="@style/liveness_activity" />
+22-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:16:13-53
+23        <activity
+23-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:17:9-21:72
+24            android:name="ai.advance.liveness.sdk.activity.ResultActivity"
+24-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:18:13-52
+25            android:launchMode="singleTop"
+25-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:19:13-43
+26            android:screenOrientation="portrait"
+26-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:20:13-49
+27            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+27-->/Users/neruno/AndroidStudioProjects/LivenessDetectionDemo/liveness/src/main/AndroidManifest.xml:21:13-69
+28    </application>
+29
+30</manifest>

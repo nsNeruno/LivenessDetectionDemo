@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="liveness_failed_reason_timeout">समय समाप्त,\n कृपया निर्देशों का पालन करें</string>
+    <string name="liveness_failed_reason_facemissing_blink_mouth">किसी चेहरे का पता नहीं चला,\n कृपया तेज गति टालें और एक उज्जवल स्थान खोजें</string>
+    <string name="liveness_failed_reason_facemissing_pos_yaw">किसी चेहरे का पता नहीं चला,\n कृपया तेज गति टालें और अपना सिर ज्यादा न हिलाएं (>४५ डिग्री)</string>
+    <string name="liveness_failed_reason_multipleface">कई चेहरों का पता चला</string>
+    <string name="liveness_failed_reason_muchaction">कई गतियों का पता चला</string>
+    <string name="liveness_failed_reason_auth_failed">प्राधिकरण विफल रहा, कृपया नेटवर्क जांचें</string>
+    <string name="liveness_failed_reason_bad_network">कृपया नेटवर्क की जाँच करें</string>
+</resources>
