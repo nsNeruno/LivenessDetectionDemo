@@ -82,7 +82,6 @@
         <item name="titleTextColor">@android:color/white</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="elevation">0dp</item>
-        <item name="homeAsUpIndicator">@drawable/ic_baseline_chevron_left_24</item>
     </style>
 
     <style name="liveness_activity" parent="@style/Theme.AppCompat.DayNight.NoActionBar" >
