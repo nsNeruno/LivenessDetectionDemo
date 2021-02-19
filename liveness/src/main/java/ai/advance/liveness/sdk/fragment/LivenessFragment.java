@@ -4,24 +4,19 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.AlertDialog;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.appcompat.app.AlertDialog;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import ai.advance.common.IMediaPlayer;
 import ai.advance.liveness.lib.Detector;
 import ai.advance.liveness.lib.LivenessResult;
 import ai.advance.liveness.lib.LivenessView;
@@ -29,8 +24,6 @@ import ai.advance.liveness.lib.http.entity.ResultEntity;
 import ai.advance.liveness.lib.impl.LivenessCallback;
 import ai.advance.liveness.lib.impl.LivenessGetFaceDataCallback;
 import ai.advance.liveness.sdk.R;
-
-import static ai.advance.liveness.lib.Detector.DetectionType.POS_YAW;
 
 /**
  * fragment of liveness detection

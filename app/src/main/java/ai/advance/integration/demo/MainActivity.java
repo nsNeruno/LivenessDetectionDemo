@@ -2,16 +2,13 @@ package ai.advance.integration.demo;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import ai.advance.liveness.lib.GuardianLivenessDetectionSDK;
 import ai.advance.liveness.lib.LivenessResult;
-import ai.advance.liveness.lib.impl.LivenessCallback;
-import ai.advance.liveness.lib.impl.LivenessGetFaceDataCallback;
 import ai.advance.liveness.sdk.activity.LivenessActivity;
 import ai.advance.liveness.sdk.activity.ResultActivity;
 
